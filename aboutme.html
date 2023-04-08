@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О себе</title>
+    <link rel="stylesheet" href="./listen.css">
+    <link rel="shortcut icon" href="./img/ico.svg" type="image/svg">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script async src="./script.js"></script>
+</head>
+<body>
+    <div class="all">
+        <header class="header">
+            <a class="logo" href="index.html">
+                <img src="img/logo.svg" alt="Логотип">
+            </a>
+            <nav class="navigation">
+                <ul class="menu">
+                    <li class="menu_list">
+                        <a class="menu_link" href="./index.html">Главная</a>
+                    </li>
+                    <li class="menu_list">
+                         <a class="menu_link" href="./students.html">Студенты</a>
+                    </li>
+                    <li class="menu_list">
+                        <a class="menu_link menu_link_active" href="./aboutme.html">О себе</a>
+                    </li>
+                    <li class="menu_list">
+                        <a class="menu_link" href="./course.html">О курсе</a>
+                    </li>
+                    <li class="menu_list">
+                        <a class="menu_link" href="./contacts.html">Контакты</a>
+                    </li>
+                </ul>
+                <button name="button" class="button_come">Войти</button>
+            </nav>
+            <button class="burger-button"></button>
+        </header>
+        <main class="content-aboutme">
+            <h2 class="subject">О себе &#128105;&#8205;&#128187;</h2>
+            <section class="aboutme">
+                <img class="photome" src="./img/myphoto.png" alt="Мoё фото">
+                <div class="text">
+                    <h2 class="subject">Кошелюк Елена</h2>
+                    <p class="text-me">Я студент веб-разработчик. Совсем недавно я нашла ту сферу,которая мне очень понравилась. Знаю, что придётся пройти очень трудный путь и я полностью готова много работать, выкладываться, учиться и развиваться. Также развиваюсь в других сферах. Я всегда открыта для новых знаний, поэтому постоянно вкладываюсь в саморазвитие.</p>
+                </div>    
+            </section>
+            <section class="information">
+                <div class="text-info">
+                    <ul class="personals">
+                        <li class="personal">
+                            <h3 class="heading">&#127891;Полученные навыки</h3>
+                            <p class="text-me">HTML, CSS, jаvascript</p>
+                        </li>
+                        <li class="personal">
+                            <h3 class="heading">&#128221;Личные качества</h3>
+                            <p class="text-me">Обучаемость, усидчивость,<br> упорство, исполнительность. </p>
+                        </li>
+                        <li class="personal">
+                            <h3 class="heading">&#128233;Контактная информация</h3>
+                            <a class="number" href="tel:+75555555555">Тел: +7 (555) 555-55-55</a><br>
+                            <a class="email" href="email@gmail.com">Эл. почта: email@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <footer class="footer">
+        <p>2023 &copy; 
+            <a target="_blank" class="footer_a" href="https://www.2035.university/" >учебный центр</a>
+        </p>
+    </footer>
+    <div class="modal__overlay">
+        <form class="modal_form">
+            <h2 class="modal_title">Войти на сайт</h2>
+            <input class="modal_input" type="text" placeholder="Логин">
+            <input class="modal_input" type="password" placeholder="Пароль">
+            <button name="button" class="button_come" type="submit">Войти</button>
+            <button class="close-button" type="button"></button>
+        </form>
+    </div>
+</body>
+</html>
