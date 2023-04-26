@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студенты</title>
+    <link rel="stylesheet" href="./listen.css">
+    <link rel="shortcut icon" href="./img/ico.svg" type="image/svg">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script async src="./script.js"></script>
+</head>
+<body>
+    <div class="all">
+        <header class="header">
+            <a class="logo" href="index.html">
+                <img src="img/logo.svg" alt="Логотип">
+            </a>
+            <nav class="navigation">
+                <ul class="menu">
+                    <li class="menu_list">
+                        <a class="menu_link" href="./index.html">Главная</a>
+                    </li>
+                    <li class="menu_list">
+                         <a class="menu_link menu_link_active" href="./students.html">Студенты</a>
+                    </li>
+                    <li class="menu_list">
+                        <a class="menu_link" href="./aboutme.html">О себе</a>
+                    </li>
+                    <li class="menu_list">
+                        <a class="menu_link" href="./course.html">О курсе</a>
+                    </li>
+                    <li class="menu_list">
+                        <a class="menu_link" href="./contacts.html">Контакты</a>
+                    </li>  
+                </ul>
+                <button name="button" class="button_come">Войти</button>
+            </nav>
+            <button class="burger-button"></button>
+        </header>
+        <main class="content-students">
+            <h2 class="subject">Студенты потока 08.02.2020 &#128103; &#128102;</h2>
+            <div class="students">
+                <div class="student">
+                    <a href="aboutme.html">
+                        <img width="200" height="270" src="./img/men.png" alt="Студент1">
+                    </a>
+                    <p class="name">Василий Иванов</p>
+                </div>
+                <div class="student">
+                    <a href="aboutme.html">
+                        <img width="200" height="270" src="./img/myphoto.png" alt="Студент2">
+                    </a>
+                    <p class="name">Кошелюк Елена</p>
+                    <p class="new">НОВИЧОК</p>
+                </div>
+                <div class="student">
+                    <a href="aboutme.html">
+                        <img width="200" height="270" src="./img/girl.png" alt="Студент3">
+                    </a>
+                    <p class="name">Мария Александровна</p>
+                </div>
+                <div class="student">
+                    <a href="aboutme.html">
+                        <img width="200" height="270" src="./img/men.png" alt="Студент4">
+                    </a>
+                    <p class="name">Василий Иванов</p>
+                </div>
+                <div class="student">
+                    <a href="aboutme.html">
+                        <img width="200" height="270" src="./img/men.png" alt="Студент5">
+                    </a>
+                    <p class="name">Василий Иванов</p>
+                </div>
+            </div>
+        </main>
+    </div>    
+    <footer class="footer">
+        <p>2023 &copy; 
+            <a target="_blank" class="footer_a" href="https://www.2035.university/" >учебный центр</a>
+        </p>
+    </footer>
+    <div class="modal__overlay">
+        <form class="modal_form">
+            <h2 class="modal_title">Войти на сайт</h2>
+            <input class="modal_input" type="text" placeholder="Логин">
+            <input class="modal_input" type="password" placeholder="Пароль">
+            <button name="button" class="button_come" type="submit">Войти</button>
+            <button class="close-button" type="button"></button>
+        </form>
+    </div>    
+</body>
+</html>
